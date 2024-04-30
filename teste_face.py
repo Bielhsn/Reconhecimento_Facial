@@ -9,6 +9,7 @@ for x, y, l, a in faces_detectadas:
     #arquivo_img, ponto_iniciaL,cor
     foto = cv2.rectangle(foto, (x,y), (x+l, y+a), (0,0,255))
 
+#print da imagem
 print(faces_detectadas)
 
 cv2.imshow("Pessoas aleatórias",foto)
